@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required Metas -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<!-- Title -->
+	<title>Bootstrap 4</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Iconic Fonts -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Color -->
+	<link rel="stylesheet" href="css/default_theme.css">
+	<!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Main Css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Start Upper-bar -->
+	<section class="upper-bar">
+		<div class="container">
+			<div class="row">
+				<!-- Here We Used Typography like text-sm-left we mean here is from the small size and above text will be in the center-->
+				<div class="col-sm left text-center text-sm-left">
+					<div class="phone">
+						<i class="fa fa-phone fa-fw"></i>
+						<span>000 123 456 789</span>
+					</div>
+					<div class="email">
+						<i class="fa fa-envelope-o fa-fw"></i>
+						<span class="text-uppercase">Max@Mohammad.com</span>
+					</div>
+				</div>
+				<div class="col-sm right text-center text-sm-right">
+					<span class="text-uppercase">Lets Work Together!</span>
+					<button class="text-uppercase">Get Quote</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Upper-bar -->
+
+	<!-- Start Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+			<!-- Logo -->
+			<a class="navbar-brand" href="#"><span>Elite</span><span>Corp</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Taps -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item active">
+					<a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Work</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End Navbar -->
+
+	<!-- Start Slider -->
+	<section class="slider bg-dark">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<h1>We're an Independent <br> <span class="design">Design</span> and <span class="dev">Development</span> <br> Agency.</h1>
+				<div class="overlay"></div>
+				<!-- We removed the images from here cuz in the smaller size will not take all height -->
+				<div class="carousel-item c-one active"></div>
+				<div class="carousel-item c-tow "></div>
+				<div class="carousel-item c-three"></div>
+			</div>
+		</div>
+	</section>
+	<!-- End Slider -->
+
+	<!-- Start Features -->
+	<section class="features text-center">
+		<div class="container">
+			<h2>Features</h2>
+			<div class="row">
+				<div class="col-sm-6 col-lg-3 feat">
+					<i class="fa fa-home fa-2x rounded-circle"></i>
+					<h4>Great Ideas</h4>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua..</p>
+				</div>
+				<div class="col-sm-6 col-lg-3 feat">
+					<i class="fa fa-home fa-2x rounded-circle"></i>
+					<h4>Great Ideas</h4>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua..</p>
+				</div>
+				<div class="col-sm-6 col-lg-3 feat">
+					<i class="fa fa-home fa-2x rounded-circle"></i>
+					<h4>Great Ideas</h4>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua..</p>
+				</div>
+				<div class="col-sm-6 col-lg-3 feat">
+					<i class="fa fa-home fa-2x rounded-circle"></i>
+					<h4>Great Ideas</h4>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua..</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Features -->
+
+	<!-- Start Overview -->
+	<section class="overview text-center">
+		<div class="container">
+			<h2>Company Overview</h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.et dolore magna aliqua.</p>
+			<span>Lets Start Today</span>
+			<button>View More</button>
+		</div>
+	</section>
+	<!-- End Overview -->
+
+	<!-- Start Feature -->
+	<section class="features text-center">
+		<div class="container">
+			<h2>Featured Work</h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.et dolore magna aliqua.</p>
+			<div class="items">
+				<ul class="list-unstyled mt-4 mb-4 row">
+					<li data-class=".all" class="active first col-md-2">All</li>
+					<li data-class=".websites" class="col-md-2">Website</li>
+					<li data-class=".logos" class="col-md-2">Logo & Branding</li>
+					<li data-class=".graphic" class="col-md-2">Graphic Design</li>
+					<li data-class=".marketing" class="col-md-2">Online Marketing</li>
+					<li data-class=".videos" class="last col-md-2">Video</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Shuffel the images by filtering every image to its category -->
+		<div class="feat-img">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block websites" src="img/Work/1.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block videos" src="img/Work/2.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block websites" src="img/Work/3.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block logos" src="img/Work/4.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block marketing" src="img/Work/5.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block logos" src="img/Work/6.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block graphic" src="img/Work/7.jpg">
+				</div>
+				<div class="col-md-3 col-sm-6 imgs">
+					<img class="img-fluid center-block logos" src="img/Work/8.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Feature -->
+
+	<!-- Start Latest Post -->
+	<section class="latest text-center pb-3">
+		<div class="container">
+			<h2>Latest Post</h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.et dolore magna aliqua.</p>
+			<div class="row text-left mt-4">
+				<div class="col-md-4">
+					<img class="img-fluid center-block w-100" src="img/piano1.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<span>March 24 2017</span>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-4">
+					<img class="img-fluid center-block w-100" src="img/piano2.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<span>March 24 2017</span>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-4">
+					<img class="img-fluid center-block w-100" src="img/piano3.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<span>March 24 2017</span>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.et dolore magna aliqua.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Latest Post -->
+
+	<!-- Start Pricing -->
+	<section class="price text-center">
+		<div class="container">
+			<h2>Pricing Table</h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.et dolore magna aliqua.</p>
+			<div class="row mt-5">
+				<div class="col-md-4 col-12 item first">
+					<div class="head">
+						<h4>Small Business</h4>
+						<p>Lorem Ipsum</p>
+						<span>$99/<small>Year</small></span>
+					</div>
+					<ul class="list-unstyled">
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<button>Buy Now</button>
+				</div>
+				<div class="col-md-4 col-12 item second">
+					<div class="head">
+						<h4>Corporate</h4>
+						<p>Lorem Ipsum</p>
+						<span>$199/<small>Year</small></span>
+					</div>
+					<ul class="list-unstyled">
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<button>Buy Now</button>
+				</div>
+				<div class="col-md-4 col-12 item third">
+					<div class="head">
+						<h4>Enterprise</h4>
+						<p>Lorem Ipsum</p>
+						<span>$299/<small>Year</small></span>
+					</div>
+					<ul class="list-unstyled">
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<button>Buy Now</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Pricing -->
+
+	<!-- Start Choose Us -->
+	<section class="choose text-center">
+		<div class="row">
+			<div class="col-lg-6 left">
+				<img class="img-fluid" src="img/choose.jpg">
+			</div>
+			<div class="col-lg-6 right">
+				<h2>Why Choose Us</h2>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>View More</button>
+			</div>
+		</div>
+	</section>
+	<!-- End Choose Us -->
+
+	<!-- Start Statistics -->
+	<section class="stat text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<i class="fa fa-check fa-4x"></i><br>
+					<span class="count" data-from="25" data-to="650" data-speed="2000"></span>
+					<p>Happy Clients</p>
+				</div>
+				<div class="col-sm-3">
+					<i class="fa fa-check fa-4x"></i><br>
+					<span class="count" data-from="25" data-to="1000" data-speed="2000"></span>
+					<p>Happy Clients</p>
+				</div>
+				<div class="col-sm-3">
+					<i class="fa fa-check fa-4x"></i><br>
+					<span class="count" data-from="25" data-to="1500" data-speed="2000"></span>
+					<p>Happy Clients</p>
+				</div>
+				<div class="col-sm-3">
+					<i class="fa fa-check fa-4x"></i><br>
+					<span class="count" data-from="25" data-to="1999" data-speed="2000"></span>
+					<p>Happy Clients</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Statistics -->
+
+	<!-- Start Contact -->
+	<section class="contact text-center	">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<span>You think were cool? Lets work together</span>
+				</div>
+				<div class="col-md-4 text-right">
+					<button>Contact Us</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact -->
+
+	<!-- Start Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 left">
+					<a class="navbar-brand" href="#"><span>Elite</span><span>Corp</span></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+					<a href="#">Read More</a>
+				</div>
+				<div class="col-md-4 middle">
+					<h4>Helpful Links</h4>
+					<div class="row">
+						<div class="col">
+							<ul class="list-unstyled">
+								<li>
+									<a href="#">Articles</a>
+								</li>
+								<li>
+									<a href="#">Portofolio</a>
+								</li>
+								<li>
+									<a href="#">Team</a>
+								</li>
+								<li>
+									<a href="#">Pricing</a>
+								</li>
+								<li>
+									<a href="#">Privacy Policy</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="list-unstyled">
+								<li>
+									<a href="#">FAQ</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">How It Works</a>
+								</li>
+								<li>
+									<a href="#">Benifets</a>
+								</li>
+								<li>
+									<a href="#">Contacts</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 right">
+					<h4>Contact Us</h4>
+					<ul class="list-unstyled">
+						<li>Levo Road Near Red Fort, U.S</li>
+						<li>
+							<label>Phone:</label>
+							11111111
+						</li>
+						<li>
+							<label>Email:</label>
+							<a href="#">info@elitecorp.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row foot">
+				<div class="col-md-6 l">
+					<span>Copyright 2017 Elitecorp | All Rights Reseved</span>
+				</div>
+				<div class="col-md-6 r">
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-pinterest"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Scripts Here -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

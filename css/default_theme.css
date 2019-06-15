@@ -1,0 +1,44 @@
+/* Primary Color */
+.upper-bar,
+.price .item.second button,
+.choose .right,
+footer .left i
+{ background-color: #08526D }
+
+nav .navbar-brand span:first-child,
+footer .navbar-brand span:first-child,
+nav .collapse .navbar-nav .nav-link,
+.slider .carousel-inner h1 .design,
+.features .feat h4,
+.features ul li,
+.latest .row p,
+.price .item span,
+.price h4,
+.stat i,
+.stat span,
+footer .left a,
+footer .middle ul li a,
+footer h4
+{ color: #08526D }
+
+.features ul li { border: 1px solid #08526D; }
+
+/* Secondry Color */
+nav .navbar-brand span:last-child,
+footer .navbar-brand span:last-child,
+nav .collapse .navbar-nav .active > .nav-link,
+.slider .carousel-inner h1 .dev,
+.latest a,
+a:hover,
+.stat p
+{ color: #ED1D24 }
+
+.features .feat i,
+.overview button,
+.features ul li.active,
+.features ul li:hover,
+.price .item.second span,
+.price .item button,
+.choose .right button,
+.contact
+{ background-color: #ED1D24 }
